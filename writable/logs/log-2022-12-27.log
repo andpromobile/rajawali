@@ -1,0 +1,1297 @@
+CRITICAL - 2022-12-27 00:50:37 --> syntax error, unexpected token "."
+in APPPATH\Views\produk.php on line 144.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk', [], true)
+ 3 APPPATH\Controllers\Produk.php(25): view('produk', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:02:52 --> Too few arguments to function App\Controllers\Produk::form(), 0 passed in D:\Program\laragon\www\rajawali\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Produk.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:03:00 --> Too few arguments to function App\Controllers\Produk::form(), 0 passed in D:\Program\laragon\www\rajawali\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Produk.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:08:15 --> Too few arguments to function App\Controllers\Produk::form(), 0 passed in D:\Program\laragon\www\rajawali\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Produk.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:09:06 --> Too few arguments to function App\Controllers\Produk::form(), 0 passed in D:\Program\laragon\www\rajawali\system\CodeIgniter.php on line 927 and exactly 1 expected
+in APPPATH\Controllers\Produk.php on line 28.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:27:03 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$kode
+in APPPATH\Views\produk-form.php on line 41.
+ 1 APPPATH\Views\produk-form.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$kode', 'APPPATH\\Views\\produk-form.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk-form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 5 APPPATH\Controllers\Produk.php(34): view('produk-form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:29:53 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$kode
+in APPPATH\Views\produk-form.php on line 41.
+ 1 APPPATH\Views\produk-form.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$kode', 'APPPATH\\Views\\produk-form.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk-form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 5 APPPATH\Controllers\Produk.php(34): view('produk-form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:34:58 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$kode
+in APPPATH\Views\produk-form.php on line 41.
+ 1 APPPATH\Views\produk-form.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Builder::$kode', 'APPPATH\\Views\\produk-form.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk-form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 5 APPPATH\Controllers\Produk.php(34): view('produk-form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:35:18 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+in APPPATH\Views\produk-form.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 4 APPPATH\Controllers\Produk.php(34): view('produk-form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:35:19 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+in APPPATH\Views\produk-form.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 4 APPPATH\Controllers\Produk.php(34): view('produk-form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:35:20 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+in APPPATH\Views\produk-form.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 4 APPPATH\Controllers\Produk.php(34): view('produk-form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:35:21 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+in APPPATH\Views\produk-form.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 4 APPPATH\Controllers\Produk.php(34): view('produk-form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:35:21 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+in APPPATH\Views\produk-form.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 4 APPPATH\Controllers\Produk.php(34): view('produk-form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:35:21 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+in APPPATH\Views\produk-form.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 4 APPPATH\Controllers\Produk.php(34): view('produk-form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:35:22 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+in APPPATH\Views\produk-form.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 4 APPPATH\Controllers\Produk.php(34): view('produk-form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:35:47 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+in APPPATH\Views\produk-form.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 4 APPPATH\Controllers\Produk.php(34): view('produk-form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:36:02 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$kode
+in APPPATH\Views\produk-form.php on line 41.
+ 1 APPPATH\Views\produk-form.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Builder::$kode', 'APPPATH\\Views\\produk-form.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk-form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 5 APPPATH\Controllers\Produk.php(34): view('produk-form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:36:04 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$kode
+in APPPATH\Views\produk-form.php on line 41.
+ 1 APPPATH\Views\produk-form.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Builder::$kode', 'APPPATH\\Views\\produk-form.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk-form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 5 APPPATH\Controllers\Produk.php(34): view('produk-form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:37:15 --> Undefined variable $query
+in APPPATH\Views\produk-form.php on line 41.
+ 1 APPPATH\Views\produk-form.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'APPPATH\\Views\\produk-form.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk-form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 5 APPPATH\Controllers\Produk.php(36): view('produk-form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:39:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Produk.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:39:25 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Produk.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:39:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Produk.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:39:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Produk.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:39:27 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Produk.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:39:52 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$kode
+in APPPATH\Views\produk-form.php on line 41.
+ 1 APPPATH\Views\produk-form.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Builder::$kode', 'APPPATH\\Views\\produk-form.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk-form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 5 APPPATH\Controllers\Produk.php(34): view('produk-form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:44:12 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Views\produk-form.php on line 36.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 4 APPPATH\Controllers\Produk.php(34): view('produk-form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:47:36 --> Undefined variable $query
+in APPPATH\Controllers\Produk.php on line 34.
+ 1 APPPATH\Controllers\Produk.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'APPPATH\\Controllers\\Produk.php', 34)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:48:28 --> Call to a member function getResult() on string
+in APPPATH\Controllers\Produk.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:48:29 --> Call to a member function getResult() on string
+in APPPATH\Controllers\Produk.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:48:30 --> Call to a member function getResult() on string
+in APPPATH\Controllers\Produk.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:48:31 --> Call to a member function getResult() on string
+in APPPATH\Controllers\Produk.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:49:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Produk.php on line 38.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:49:53 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$kode
+in APPPATH\Controllers\Produk.php on line 36.
+ 1 APPPATH\Controllers\Produk.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Builder::$kode', 'APPPATH\\Controllers\\Produk.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:49:54 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$kode
+in APPPATH\Controllers\Produk.php on line 36.
+ 1 APPPATH\Controllers\Produk.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Builder::$kode', 'APPPATH\\Controllers\\Produk.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:49:55 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$kode
+in APPPATH\Controllers\Produk.php on line 36.
+ 1 APPPATH\Controllers\Produk.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Builder::$kode', 'APPPATH\\Controllers\\Produk.php', 36)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:50:05 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+in APPPATH\Controllers\Produk.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:50:16 --> Cannot use object of type CodeIgniter\Database\MySQLi\Builder as array
+in APPPATH\Controllers\Produk.php on line 36.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:53:11 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH\Controllers\Produk.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:53:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH\Controllers\Produk.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:53:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH\Controllers\Produk.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:53:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH\Controllers\Produk.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:53:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH\Controllers\Produk.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:54:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+in APPPATH\Controllers\Produk.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:54:20 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+in APPPATH\Controllers\Produk.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:54:33 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Produk.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:54:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Produk.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:54:44 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Produk.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:54:47 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Produk.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:55:07 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Produk.php on line 34.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:57:17 --> Object of class CodeIgniter\Database\MySQLi\Builder could not be converted to string
+in APPPATH\Views\produk-form.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 4 APPPATH\Controllers\Produk.php(41): view('produk-form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:57:40 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH\Views\produk-form.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 4 APPPATH\Controllers\Produk.php(41): view('produk-form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 03:58:05 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH\Views\produk-form.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 4 APPPATH\Controllers\Produk.php(41): view('produk-form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 04:14:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+in APPPATH\Controllers\Produk.php on line 32.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 04:15:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 04:15:38 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 04:15:41 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 04:15:56 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 04:17:30 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::row()
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 04:18:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 04:18:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 04:18:21 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 04:19:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::where()
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 04:25:08 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResultArray()
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 04:27:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 04:27:37 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getRow()
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 04:27:55 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$kode
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 APPPATH\Controllers\Produk.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Builder::$kode', 'APPPATH\\Controllers\\Produk.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 04:28:04 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::kode()
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 04:28:13 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::first()
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 15:15:59 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::where()
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 15:16:37 --> CodeIgniter\Database\BaseBuilder::get(): Argument #1 ($limit) must be of type ?int, string given, called in D:\Program\laragon\www\rajawali\app\Controllers\Produk.php on line 33
+in SYSTEMPATH\Database\BaseBuilder.php on line 1577.
+ 1 APPPATH\Controllers\Produk.php(33): CodeIgniter\Database\BaseBuilder->get('id', '1')
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 15:19:29 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 15:19:32 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 15:19:34 --> Call to undefined method CodeIgniter\Database\MySQLi\Builder::getResult()
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 15:23:22 --> Undefined variable $db
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 APPPATH\Controllers\Produk.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Controllers\\Produk.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 15:23:25 --> Undefined variable $db
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 APPPATH\Controllers\Produk.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $db', 'APPPATH\\Controllers\\Produk.php', 33)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 15:23:55 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 15:24:09 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+in APPPATH\Controllers\Produk.php on line 33.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 15:26:33 --> Cannot use object of type stdClass as array
+in APPPATH\Views\produk-form.php on line 41.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 4 APPPATH\Controllers\Produk.php(34): view('produk-form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 15:30:29 --> Undefined property: stdClass::$foto
+in APPPATH\Views\produk-form.php on line 90.
+ 1 APPPATH\Views\produk-form.php(90): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$foto', 'APPPATH\\Views\\produk-form.php', 90)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk-form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 5 APPPATH\Controllers\Produk.php(34): view('produk-form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 15:34:28 --> mysqli_sql_exception: Table 'db_rajawali.satuan' doesn't exist in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-27 15:36:48 --> mysqli_sql_exception: Table 'db_rajawali.satuan' doesn't exist in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-27 15:36:49 --> Call to undefined method stdClass::getResult()
+in APPPATH\Views\produk-form.php on line 69.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 4 APPPATH\Controllers\Produk.php(36): view('produk-form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 15:37:15 --> mysqli_sql_exception: Table 'db_rajawali.satuan' doesn't exist in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-27 15:37:15 --> Call to a member function getResult() on bool
+in APPPATH\Views\produk-form.php on line 69.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 4 APPPATH\Controllers\Produk.php(36): view('produk-form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 15:37:17 --> mysqli_sql_exception: Table 'db_rajawali.satuan' doesn't exist in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-27 15:37:17 --> Call to a member function getResult() on bool
+in APPPATH\Views\produk-form.php on line 69.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 4 APPPATH\Controllers\Produk.php(36): view('produk-form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 15:38:22 --> mysqli_sql_exception: Table 'db_rajawali.satuan' doesn't exist in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-27 15:38:22 --> Call to a member function getResult() on bool
+in APPPATH\Views\produk-form.php on line 69.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 4 APPPATH\Controllers\Produk.php(36): view('produk-form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 15:38:50 --> mysqli_sql_exception: Table 'db_rajawali.satuan' doesn't exist in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-27 15:38:50 --> Call to a member function getResult() on bool
+in APPPATH\Views\produk-form.php on line 69.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 4 APPPATH\Controllers\Produk.php(36): view('produk-form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 15:40:47 --> mysqli_sql_exception: Table 'db_rajawali.satuan' doesn't exist in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(34): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-27 15:40:47 --> Call to a member function getResult() on bool
+in APPPATH\Views\produk-form.php on line 68.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 4 APPPATH\Controllers\Produk.php(36): view('produk-form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form('1')
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 15:41:22 --> Undefined variable $opsi
+in APPPATH\Views\produk-form.php on line 68.
+ 1 APPPATH\Views\produk-form.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $opsi', 'APPPATH\\Views\\produk-form.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk-form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 5 APPPATH\Controllers\Produk.php(41): view('produk-form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 15:41:25 --> Undefined variable $opsi
+in APPPATH\Views\produk-form.php on line 68.
+ 1 APPPATH\Views\produk-form.php(68): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $opsi', 'APPPATH\\Views\\produk-form.php', 68)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk-form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 5 APPPATH\Controllers\Produk.php(41): view('produk-form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 15:43:00 --> Undefined property: stdClass::$nama
+in APPPATH\Views\produk-form.php on line 69.
+ 1 APPPATH\Views\produk-form.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'APPPATH\\Views\\produk-form.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk-form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 5 APPPATH\Controllers\Produk.php(43): view('produk-form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 15:43:02 --> Undefined property: stdClass::$nama
+in APPPATH\Views\produk-form.php on line 69.
+ 1 APPPATH\Views\produk-form.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'APPPATH\\Views\\produk-form.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk-form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 5 APPPATH\Controllers\Produk.php(43): view('produk-form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 15:43:44 --> Undefined property: stdClass::$nama
+in APPPATH\Views\produk-form.php on line 69.
+ 1 APPPATH\Views\produk-form.php(69): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: stdClass::$nama', 'APPPATH\\Views\\produk-form.php', 69)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk-form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 5 APPPATH\Controllers\Produk.php(45): view('produk-form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 15:44:09 --> Call to a member function getResult() on array
+in APPPATH\Views\produk-form.php on line 68.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 4 APPPATH\Controllers\Produk.php(45): view('produk-form', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 15:53:35 --> mysqli_sql_exception: Column 'img_barang' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(60): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-27 19:31:15 --> Undefined property: App\Controllers\Produk::$load
+in APPPATH\Controllers\Produk.php on line 19.
+ 1 APPPATH\Controllers\Produk.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Produk::$load', 'APPPATH\\Controllers\\Produk.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 19:31:22 --> Undefined property: App\Controllers\Produk::$load
+in APPPATH\Controllers\Produk.php on line 19.
+ 1 APPPATH\Controllers\Produk.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Produk::$load', 'APPPATH\\Controllers\\Produk.php', 19)
+ 2 SYSTEMPATH\CodeIgniter.php(889): App\Controllers\Produk->__construct()
+ 3 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 19:38:11 --> Undefined variable $validation
+in APPPATH\Views\produk-form.php on line 35.
+ 1 APPPATH\Views\produk-form.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $validation', 'APPPATH\\Views\\produk-form.php', 35)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk-form.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk-form', [], true)
+ 5 APPPATH\Controllers\Produk.php(46): view('produk-form', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->form()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 19:39:48 --> Undefined property: App\Controllers\Produk::$form_validation
+in APPPATH\Controllers\Produk.php on line 61.
+ 1 APPPATH\Controllers\Produk.php(61): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Produk::$form_validation', 'APPPATH\\Controllers\\Produk.php', 61)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 19:40:24 --> Undefined variable $opsi
+in APPPATH\Controllers\Produk.php on line 63.
+ 1 APPPATH\Controllers\Produk.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $opsi', 'APPPATH\\Controllers\\Produk.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 19:40:48 --> Undefined variable $opsi
+in APPPATH\Controllers\Produk.php on line 63.
+ 1 APPPATH\Controllers\Produk.php(63): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $opsi', 'APPPATH\\Controllers\\Produk.php', 63)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 19:42:08 --> Undefined variable $opsi
+in APPPATH\Controllers\Produk.php on line 64.
+ 1 APPPATH\Controllers\Produk.php(64): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $opsi', 'APPPATH\\Controllers\\Produk.php', 64)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 20:01:02 --> Undefined variable $opsi
+in APPPATH\Controllers\Produk.php on line 65.
+ 1 APPPATH\Controllers\Produk.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $opsi', 'APPPATH\\Controllers\\Produk.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 20:02:44 --> Undefined variable $opsi
+in APPPATH\Controllers\Produk.php on line 65.
+ 1 APPPATH\Controllers\Produk.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $opsi', 'APPPATH\\Controllers\\Produk.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 20:04:40 --> Undefined variable $session
+in APPPATH\Controllers\Produk.php on line 62.
+ 1 APPPATH\Controllers\Produk.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $session', 'APPPATH\\Controllers\\Produk.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 20:07:21 --> Undefined variable $opsi
+in APPPATH\Controllers\Produk.php on line 65.
+ 1 APPPATH\Controllers\Produk.php(65): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $opsi', 'APPPATH\\Controllers\\Produk.php', 65)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 20:41:59 --> Undefined variable $opsi
+in APPPATH\Controllers\Satuan.php on line 40.
+ 1 APPPATH\Controllers\Satuan.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $opsi', 'APPPATH\\Controllers\\Satuan.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Satuan->form()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 20:43:32 --> mysqli_sql_exception: Column 'satuan' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Satuan.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Satuan->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-27 21:00:14 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\produk.php on line 36.
+ 1 APPPATH\Views\produk.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\produk.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Controllers\Produk.php(26): view('produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 21:04:47 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\produk.php on line 36.
+ 1 APPPATH\Views\produk.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\produk.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Controllers\Produk.php(29): view('produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 21:05:53 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\produk.php on line 36.
+ 1 APPPATH\Views\produk.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\produk.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Controllers\Produk.php(29): view('produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 21:11:12 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\produk.php on line 36.
+ 1 APPPATH\Views\produk.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\produk.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Controllers\Produk.php(29): view('produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 21:14:45 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\produk.php on line 36.
+ 1 APPPATH\Views\produk.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\produk.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Controllers\Produk.php(29): view('produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 21:19:18 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\produk.php on line 36.
+ 1 APPPATH\Views\produk.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\produk.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Controllers\Produk.php(29): view('produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 21:20:40 --> mysqli_sql_exception: Column 'img_barang' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-27 21:21:20 --> mysqli_sql_exception: Column 'img_barang' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-27 21:23:02 --> mysqli_sql_exception: Column 'img_barang' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-27 21:23:25 --> mysqli_sql_exception: Column 'img_barang' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-27 21:24:37 --> mysqli_sql_exception: Column 'img_barang' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-27 21:26:01 --> mysqli_sql_exception: Column 'satuan' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Satuan.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Satuan->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-27 21:27:01 --> mysqli_sql_exception: Column 'satuan' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Satuan.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Satuan->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-27 21:28:03 --> mysqli_sql_exception: Column 'satuan' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Satuan.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Satuan->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-27 21:28:24 --> mysqli_sql_exception: Column 'satuan' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Satuan.php(52): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Satuan->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-27 21:29:45 --> Call to undefined method CodeIgniter\Session\Session::set_flashdata()
+in APPPATH\Controllers\Produk.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 21:30:01 --> Call to undefined method CodeIgniter\Session\Session::set_flashdata()
+in APPPATH\Controllers\Produk.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 21:31:51 --> mysqli_sql_exception: Column 'img_barang' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(68): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-27 21:32:35 --> mysqli_sql_exception: Column 'img_barang' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(68): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-27 21:32:57 --> mysqli_sql_exception: Column 'img_barang' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(68): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-27 21:33:49 --> mysqli_sql_exception: Column 'img_barang' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(68): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-27 21:36:27 --> mysqli_sql_exception: Column 'img_barang' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(68): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-27 21:40:19 --> Call to undefined method CodeIgniter\Session\Session::set_flashdata()
+in APPPATH\Controllers\Produk.php on line 98.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 21:47:07 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\produk.php on line 36.
+ 1 APPPATH\Views\produk.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\produk.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Controllers\Produk.php(29): view('produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 21:47:25 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\produk.php on line 36.
+ 1 APPPATH\Views\produk.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\produk.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Controllers\Produk.php(29): view('produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-27 21:53:42 --> Undefined property: CodeIgniter\View\View::$session
+in APPPATH\Views\produk.php on line 36.
+ 1 APPPATH\Views\produk.php(36): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$session', 'APPPATH\\Views\\produk.php', 36)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Controllers\Produk.php(29): view('produk', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 21:56:23 --> mysqli_sql_exception: Column 'img_barang' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-27 21:57:13 --> mysqli_sql_exception: Column 'img_barang' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-27 21:57:43 --> mysqli_sql_exception: Column 'img_barang' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-27 21:58:23 --> mysqli_sql_exception: Column 'img_barang' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-27 21:59:07 --> mysqli_sql_exception: Column 'img_barang' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-27 21:59:30 --> mysqli_sql_exception: Column 'img_barang' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-27 22:05:13 --> Call to undefined method CodeIgniter\Session\Session::set_flashdata()
+in APPPATH\Controllers\Satuan.php on line 73.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Satuan->update('2')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Satuan))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-27 22:11:58 --> mysqli_sql_exception: Column 'img_barang' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-27 22:16:54 --> mysqli_sql_exception: Column 'img_barang' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-27 22:17:18 --> mysqli_sql_exception: Column 'img_barang' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(66): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}

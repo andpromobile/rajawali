@@ -1,0 +1,259 @@
+ERROR - 2022-12-29 03:21:54 --> mysqli_sql_exception: Unknown column 'supplier' in 'field list' in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Supplier.php(55): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Supplier->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Supplier))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-29 04:01:39 --> Invalid file: pelanggan.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('pelanggan.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('pelanggan', [], true)
+ 3 APPPATH\Controllers\Customer.php(27): view('pelanggan', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Customer->index()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Customer))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 04:09:47 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Produk.php(96): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\uploads', 'D:\\Program\\laragon\\www\\rajawali')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->update('1')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 04:10:00 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Produk.php(96): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\uploads', 'D:\\Program\\laragon\\www\\rajawali')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->update('1')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 04:10:29 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Produk.php(96): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\uploads', 'D:\\Program\\laragon\\www\\rajawali')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->update('1')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 04:14:06 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Produk.php(96): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\uploads', 'D:\\Program\\laragon\\www\\rajawali')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->update('1')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 04:14:13 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Produk.php(96): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\uploads', 'D:\\Program\\laragon\\www\\rajawali')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->update('1')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 04:14:38 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Produk.php(96): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\uploads', 'D:\\Program\\laragon\\www\\rajawali')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->update('1')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-29 04:20:39 --> mysqli_sql_exception: Unknown column 'tb.satuan.satuan' in 'field list' in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *, `tb`....', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *, `tb`....')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *, `tb`....')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *, `tb`....', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->index()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-29 04:20:39 --> Call to a member function getResult() on bool
+in APPPATH\Controllers\Produk.php on line 27.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 04:28:40 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Produk.php(96): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\uploads', 'D:\\Program\\laragon\\www\\rajawali')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->update('10')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 04:30:40 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Produk.php(72): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\uploads', 'D:\\Program\\laragon\\www\\rajawali')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->insert()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 04:34:39 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Produk.php(96): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\uploads', 'D:\\Program\\laragon\\www\\rajawali')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->update('12')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 04:35:33 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Produk.php(96): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\uploads', 'D:\\Program\\laragon\\www\\rajawali')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->update('12')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 04:36:13 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Produk.php(72): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\uploads', 'D:\\Program\\laragon\\www\\rajawali')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->insert()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 04:38:30 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Produk.php(70): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\uploads', 'D:\\Program\\laragon\\www\\rajawali')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->insert()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 04:39:33 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Produk.php(70): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\uploads', 'D:\\Program\\laragon\\www\\rajawali')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->insert()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 15:35:35 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Produk.php(103): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\uploads', 'D:\\Program\\laragon\\www\\rajawali')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->update('14')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 15:38:41 --> The original file is not a valid file.
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 137.
+ 1 SYSTEMPATH\HTTP\Files\UploadedFile.php(137): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidFile()
+ 2 APPPATH\Controllers\Produk.php(103): CodeIgniter\HTTP\Files\UploadedFile->move('FCPATH\\uploads', 'D:\\Program\\laragon\\www\\rajawali')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->update('14')
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 15:54:12 --> Undefined variable $aksi
+in APPPATH\Views\profil.php on line 34.
+ 1 APPPATH\Views\profil.php(34): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $aksi', 'APPPATH\\Views\\profil.php', 34)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(29): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 15:55:02 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$satuan
+in APPPATH\Views\profil.php on line 42.
+ 1 APPPATH\Views\profil.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$satuan', 'APPPATH\\Views\\profil.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(29): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 15:58:44 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$nama_perusahaan
+in APPPATH\Views\profil.php on line 41.
+ 1 APPPATH\Views\profil.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$nama_perusahaan', 'APPPATH\\Views\\profil.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(29): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 16:01:51 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$nama_perusahaan
+in APPPATH\Views\profil.php on line 41.
+ 1 APPPATH\Views\profil.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$nama_perusahaan', 'APPPATH\\Views\\profil.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(29): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 16:03:09 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$nama_perusahaan
+in APPPATH\Views\profil.php on line 41.
+ 1 APPPATH\Views\profil.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\Database\\MySQLi\\Result::$nama_perusahaan', 'APPPATH\\Views\\profil.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(29): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 16:29:09 --> Undefined variable $row
+in APPPATH\Views\profil.php on line 42.
+ 1 APPPATH\Views\profil.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $row', 'APPPATH\\Views\\profil.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(29): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 17:05:27 --> Undefined variable $id
+in APPPATH\Views\profil.php on line 41.
+ 1 APPPATH\Views\profil.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\profil.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(29): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 17:05:57 --> Undefined variable $id
+in APPPATH\Views\profil.php on line 41.
+ 1 APPPATH\Views\profil.php(41): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'APPPATH\\Views\\profil.php', 41)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\profil.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('profil', [], true)
+ 5 APPPATH\Controllers\Profil.php(29): view('profil', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 17:07:57 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Profil.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-29 17:10:24 --> Call to a member function isValid() on null
+in APPPATH\Controllers\Profil.php on line 43.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Profil->update('1')
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Profil))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

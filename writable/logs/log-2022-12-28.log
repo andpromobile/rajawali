@@ -1,0 +1,114 @@
+ERROR - 2022-12-28 21:27:52 --> mysqli_sql_exception: Column 'img_barang' cannot be null in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `tb...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tb...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tb...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1916): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tb...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(68): CodeIgniter\Database\BaseBuilder->insert(Array)
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->insert()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 21:32:24 --> Undefined property: App\Controllers\Produk::$load
+in APPPATH\Controllers\Produk.php on line 55.
+ 1 APPPATH\Controllers\Produk.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Produk::$load', 'APPPATH\\Controllers\\Produk.php', 55)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->insert()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 21:35:25 --> Cannot use object of type CodeIgniter\HTTP\Files\UploadedFile as array
+in APPPATH\Controllers\Produk.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 21:35:51 --> Cannot access protected property CodeIgniter\HTTP\Files\UploadedFile::$originalName
+in APPPATH\Controllers\Produk.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 21:36:02 --> Call to undefined method CodeIgniter\HTTP\Files\UploadedFile::originalName()
+in APPPATH\Controllers\Produk.php on line 64.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->insert()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 21:56:35 --> fopen(http://localhost/rajawaliuploads/index.html): Failed to open stream: HTTP wrapper does not support writeable connections
+in SYSTEMPATH\HTTP\Files\UploadedFile.php on line 179.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'fopen(http://localhost/rajawaliuploads/index.html): Failed to open stream: HTTP wrapper does not support writeable connections', 'SYSTEMPATH\\HTTP\\Files\\UploadedFile.php', 179)
+ 2 SYSTEMPATH\HTTP\Files\UploadedFile.php(179): fopen('http://localhost/rajawaliuploads/index.html', 'x+b')
+ 3 SYSTEMPATH\HTTP\Files\UploadedFile.php(130): CodeIgniter\HTTP\Files\UploadedFile->setPath('http://localhost/rajawaliuploads/')
+ 4 APPPATH\Controllers\Produk.php(72): CodeIgniter\HTTP\Files\UploadedFile->move('http://localhost/rajawaliuploads/')
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->insert()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 23:03:31 --> Undefined constant "App\Controllers\my_helpers"
+in SYSTEMPATH\CodeIgniter.php on line 889.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\CodeIgniter->createController()
+ 2 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-28 23:12:22 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::join()
+in APPPATH\Controllers\Produk.php on line 25.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->index()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 23:13:15 --> mysqli_sql_exception: Unknown column 'satuan.id' in 'on clause' in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->index()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 23:13:15 --> Call to a member function getResult() on bool
+in APPPATH\Views\produk.php on line 65.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk', [], true)
+ 4 APPPATH\Controllers\Produk.php(29): view('produk', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 23:14:03 --> mysqli_sql_exception: Unknown column 'satuan.id' in 'on clause' in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->index()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-28 23:14:03 --> Call to a member function getResult() on bool
+in APPPATH\Views\produk.php on line 65.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk', [], true)
+ 4 APPPATH\Controllers\Produk.php(29): view('produk', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->index()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-28 23:14:45 --> mysqli_sql_exception: Unknown column 'satuan.id' in 'on clause' in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(25): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->index()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}

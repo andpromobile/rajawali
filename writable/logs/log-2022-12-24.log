@@ -1,0 +1,68 @@
+ERROR - 2022-12-24 23:46:13 --> mysqli_sql_exception: Table 'db_rajawali.produk' doesn't exist in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->index()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-24 23:46:13 --> view(): Argument #2 ($data) must be of type array, bool given, called in D:\Program\laragon\www\rajawali\app\Controllers\Produk.php on line 22
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Produk.php(22): view('produk', false)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-24 23:47:16 --> mysqli_sql_exception: Table 'db_rajawali.produk' doesn't exist in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->index()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-12-24 23:49:33 --> mysqli_sql_exception: Table 'db_rajawali.produk' doesn't exist in D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\Program\laragon\www\rajawali\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\Program\laragon\www\rajawali\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\Program\laragon\www\rajawali\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\Program\laragon\www\rajawali\app\Controllers\Produk.php(21): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(927): App\Controllers\Produk->index()
+#6 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+#7 D:\Program\laragon\www\rajawali\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 D:\Program\laragon\www\rajawali\index.php(67): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-12-24 23:52:21 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in D:\Program\laragon\www\rajawali\app\Controllers\Produk.php on line 25
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Produk.php(25): view('produk', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 23:54:01 --> view(): Argument #2 ($data) must be of type array, CodeIgniter\Database\MySQLi\Result given, called in D:\Program\laragon\www\rajawali\app\Controllers\Produk.php on line 23
+in SYSTEMPATH\Common.php on line 1120.
+ 1 APPPATH\Controllers\Produk.php(23): view('produk', Object(CodeIgniter\Database\MySQLi\Result))
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->index()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-24 23:55:28 --> Undefined variable $query
+in APPPATH\Views\produk.php on line 6.
+ 1 APPPATH\Views\produk.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $query', 'APPPATH\\Views\\produk.php', 6)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\produk.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('produk', [], true)
+ 5 APPPATH\Controllers\Produk.php(23): view('produk')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Produk->index()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Produk))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

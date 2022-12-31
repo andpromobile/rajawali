@@ -1,0 +1,9 @@
+__ci_last_regenerate|i:1672196687;_ci_previous_url|s:47:"http://localhost/rajawali/index.php/produk/form";err|s:243:"	<div class="errors" role="alert">
+		<ul>
+					<li>The kode field is required.</li>
+					<li>The merk_barang field is required.</li>
+					<li>The nama_barang field is required.</li>
+					<li>The email field is required.</li>
+				</ul>
+	</div>
+";__ci_vars|a:1:{s:3:"err";s:3:"new";}
